@@ -1,7 +1,5 @@
 import streamlit as st
-from PIL import Image
-img = Image.open("thao.png")
-st.image(img, width=300)
+
 # Tiêu đề
 st.title("💰 Ứng dụng tính Thuế Thu nhập cá nhân_Vũ Thanh Thao")
 st.subheader("Vũ Thanh Thảo")
